@@ -3,6 +3,12 @@ jboss-mongo-module
 
 A jboss module to configure mongo-databases per jndi
 
+Build-Status
+============
+[![Build Status](https://travis-ci.org/adorsys/jboss-mongo-module.png?branch=develop)](https://travis-ci.org/adorsys/jboss-mongo-module)
+
+Configuration
+=============
 
 ```xml
 <subsystem xmlns="urn:jboss:domain:naming:1.3">
