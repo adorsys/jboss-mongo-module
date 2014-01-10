@@ -1,2 +1,7 @@
 language: java
-after_success: mvn package
+after_success: 
+  - mvn package
+  - mvn -N install
+env:
+  global:
+    secure: cVRGV8UELfMPTRxN3ZG2IZerCmQ4sut+HhjUdD+Y+Bg5oGFArwUbTSYutyUGdRn6KNf+SRT9DWVrnUBpCtfFZ/8tbtifLupE2+Mfs/yoTVRXEZRi7ojoZBHjENIr3vnC/RJHkWjofrCG2OMo8Lq1UcODe7mtXlKk1Gx2+2jspN0=
