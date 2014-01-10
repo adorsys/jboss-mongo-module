@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.1" name="de.adorsys.oss.mongo-jndi">
+   <resources>
+      <resource-root path="mongo-jndi.jar"/>
+   </resources>
+   <dependencies>
+      <module name="javax.api" export="true"/>
+      <module name="org.slf4j" export="true"/>
+      <module name="com.google.guava" export="true"/>
+      <module name="org.mongodb.mongo-java-driver" export="true"/>
+   </dependencies>
+</module>
