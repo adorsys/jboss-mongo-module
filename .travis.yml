@@ -2,6 +2,7 @@ language: java
 after_success:
   - "echo $ADORSYS_USER"
   - "mvn -pl jboss-mongo-java-driver-module package site"
+  - "mvn -pl jboss-mongo-jndi-module package site"
 env:
   global:
   - secure: eGX/w2tH6ykD/0Stj3kd+M8c4VQeEVXM6Dv+U8AW4TlpoFdY3/SOnBNC/mkMafgkrJQx8kyWP6qMxd88N+bA2mFdBVaMbu88kXJCA8NIjRLneyBfDT+6kMklSuSPont1LC5eSpqwiawtwVVNXOqkc3OXU9M9pW8JSo+64JLGFBM=

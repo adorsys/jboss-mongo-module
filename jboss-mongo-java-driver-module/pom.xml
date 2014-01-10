@@ -89,7 +89,7 @@
              <oauth2Token>${env.TOKEN}</oauth2Token>
 	     
              <includes>
-               <include>**/*</include>
+               <include>**/*.zip</include>
              </includes>
            </configuration>
 
