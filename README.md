@@ -30,3 +30,7 @@ A jboss module to configure mongo-databases per jndi
 
 </subsystem>
 ```
+
+```java
+DB myDB = MongoDBJndiProvider.getDB("myDB");
+```
