@@ -1,7 +1,6 @@
 language: java
-after_success: 
-  - mvn package
-  - mvn -N install
+after_success:
+  - "echo $ADORSYS_USER"
 env:
   global:
-    secure: cVRGV8UELfMPTRxN3ZG2IZerCmQ4sut+HhjUdD+Y+Bg5oGFArwUbTSYutyUGdRn6KNf+SRT9DWVrnUBpCtfFZ/8tbtifLupE2+Mfs/yoTVRXEZRi7ojoZBHjENIr3vnC/RJHkWjofrCG2OMo8Lq1UcODe7mtXlKk1Gx2+2jspN0=
+    secure: eGX/w2tH6ykD/0Stj3kd+M8c4VQeEVXM6Dv+U8AW4TlpoFdY3/SOnBNC/mkMafgkrJQx8kyWP6qMxd88N+bA2mFdBVaMbu88kXJCA8NIjRLneyBfDT+6kMklSuSPont1LC5eSpqwiawtwVVNXOqkc3OXU9M9pW8JSo+64JLGFBM=
